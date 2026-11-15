@@ -1,14 +1,35 @@
 {
-  "name": "Груминг — записи клиентов",
-  "short_name": "Груминг",
-  "description": "Локальный календарь записей для грумера",
-  "start_url": "./index.html",
-  "scope": "./",
-  "display": "standalone",
-  "background_color": "#f6f7f8",
-  "theme_color": "#dcecf5",
-  "icons": [
-    {"src":"icon-192.png","sizes":"192x192","type":"image/png"},
-    {"src":"icon-512.png","sizes":"512x512","type":"image/png"}
-  ]
+    "name": "GroomerPro",
+    "short_name": "GroomerPro",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#F7F1E8",
+    "theme_color": "#4A9FD4",
+    "description": "Локальное приложение для работы грумера.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
 }
